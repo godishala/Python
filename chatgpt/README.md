@@ -6,13 +6,19 @@ Installing required packages:
 $ mkdir -p openai/chatgpt
 $ virtualenv openai/chatgpt
 $ source openai/chatgpt/bin/activate
-$ cd openai/chatgpt
 $ pip3 install -U pip
 $ pip3 install openai
+$ cd openai/chatgpt
+$ wget https://raw.githubusercontent.com/godishala/Python/master/chatgpt/chatbot.py
 ```
 
-Usage: python3 chatbot.py "<query-here>"
-      eg: python3 chatbot.py "write a socket program in python" 
+Usage:
+```bash
+python3 chatbot.py "<query-here>"
+eg: python3 chatbot.py "write a socket program in python" 
+```
 
 
-
+POC:
+![chatbotone](https://github.com/godishala/Python/blob/master/chatgpt/Images/chatgptone.png)
+![chatbottwo](https://github.com/godishala/Python/blob/master/chatgpt/Images/chatgpttwo.png)
