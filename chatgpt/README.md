@@ -15,10 +15,12 @@ $ wget https://raw.githubusercontent.com/godishala/Python/master/chatgpt/chatbot
 Usage:
 ```bash
 python3 chatbot.py "<query-here>"
-eg: python3 chatbot.py "write a socket program in python" 
+eg: python3 chatbot.py "write socket program in python" 
 ```
 
 
 POC:
 ![chatbotone](https://github.com/godishala/Python/blob/master/chatgpt/Images/chatgptone.png)
 ![chatbottwo](https://github.com/godishala/Python/blob/master/chatgpt/Images/chatgpttwo.png)
+
+Note: Don't forgot to add the `api-key` in script.
